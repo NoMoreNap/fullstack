@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "64fc736d979bd62b8cbe6431"
+  },
+  "currentID": 8
+},
+{
+  "_id": {
+    "$oid": "64fc9144a17ecd0b0eed37df"
+  },
+  "id": 8,
+  "info": {
+    "name": "Antony",
+    "age": 24
+  },
+  "hash": "9d616b472eec20006373de46a7c27981",
+  "auth": {
+    "email": "kostyakatana@icloud.com",
+    "login": "Tony",
+    "password": "6fdd2ec3b4818f8804f47b8006b7cbda"
+  },
+  "ts_su": 1694273860,
+  "__v": 0
+}]

@@ -6,7 +6,7 @@ import { Full } from "../app/components/full";
 import { Layout } from "@/app/layouts/layout";
 
 const Index = () => {
-    return <Full></Full>;
+    return <Full><Typography variant="h1">Добро пожаловать!</Typography></Full>;
 };
 
 Index.getLayout = (page: any) => <Layout page={page} title='Главная'/>

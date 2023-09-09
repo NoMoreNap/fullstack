@@ -6,13 +6,19 @@ export const theme = createTheme({
             main: "#fff",
         },
         success: {
-            main: '#4caf50',
-            light: '#4caf50',
-            dark: '#6a9b24',
-            contrastText: '#4caf50'
+            main: "#4caf50",
+            light: "#4caf50",
+            dark: "#6a9b24",
+            contrastText: "#4caf50",
+        },
+        error: {
+            main: "rgb(211, 47, 47)",
+            light: "rgb(211, 47, 47)",
+            dark: "rgb(211, 47, 47)",
+            contrastText: "#4caf50",
         },
         text: {
-            primary: '#fff',
+            primary: "#fff",
             secondary: "#888",
         },
     },
@@ -20,27 +26,25 @@ export const theme = createTheme({
         MuiButton: {
             styleOverrides: {
                 root: {
-                    backgroundColor: '#777',
+                    backgroundColor: "#777",
                     ":hover": {
-                        backgroundColor: '#666'
-                    }
+                        backgroundColor: "#666",
+                    },
                 },
-            }
-        },
-        MuiSnackbar: {
-            styleOverrides: {
-                root: {
-                    backgroundColor: '#4caf50'
-                }
-            }
+            },
         },
         MuiAlert: {
             styleOverrides: {
-                root: {
-                    backgroundColor: '#4caf50'
+                standardSuccess: {
+                    backgroundColor: 'green',
+                    color: 'white'
                 },
-            }
+                standardError: {
+                    backgroundColor: "red",
+                    color: "white",
+                },
+            },
 
-        }
-    }
+        },
+    },
 });
