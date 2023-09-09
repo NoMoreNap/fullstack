@@ -32,7 +32,7 @@ npm start
 | _Зарегистрироваться_ | POST - http://localhost:3003/user/signup |
 | _Войти_              |  POST - http://localhost:3003/user/auth  |
 
-##Регистрация\
+## Регистрация\
 Запрос
 ```js
 {
