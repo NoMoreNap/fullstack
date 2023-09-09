@@ -83,7 +83,6 @@ export const validateAuth = async (
         }
     }
     console.log(md5(`${login}${md5(password)}${passPrase}`))
-    console.log(login, md5(password), passPrase)
     const findByHash = await dbUsers.find('hash', hash)
     if(findByHash.length) {
         res.status(200)
